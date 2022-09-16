@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米商城</title>
+    <!-- 引入图标 -->
+    <link rel="shortcut icon" href="./favicon.ico">
+
+    <!-- 引入初始化css文件 -->
+    <link rel="stylesheet" href="./css/cssreset.css">
+
+    <!-- 引入iconfont样式 在自己写的css之上引入 -->
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_3152668_6nlwh0swimd.css">
+
+    <!-- 最后引入自己的css -->
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <!-- 刚开始写页面的诀窍: 必须实体化! 先把结构做稳 -->
+
+
+    <!-- 边部固定栏开始 -->
+    <div class="bianbu">
+        <a href="#">
+            <div class="iconfont icon-shouji"></div>
+            <span>手机APP</span>
+        </a>
+        <a href="#">
+            <div class="iconfont icon-xiazai"></div>
+            <span>个人中心</span>
+        </a>
+        <a href="#">
+            <div class="iconfont icon-banshou"></div>
+            <span>售后服务</span>
+        </a>
+        <a href="#">
+            <div class="iconfont icon-kefu"></div>
+            <span>人工客服</span>
+        </a>
+        <a href="#" class="gwc">
+            <div class="iconfont icon-xiazai1"></div>
+            <span>购物车</span>
+        </a>
+        <a class="backtop" href="#top">
+            <div class="iconfont icon-huidingbu"></div>
+            <span>回顶部</span>
+        </a>
+    </div>
+    <!-- 边部固定栏结束 -->
+
+
+
+
+
+    <!-- 顶部广告 -->
+    <div class="ad-top"></div>
+    <!-- /顶部广告 -->
+
+    <!-- 顶部直通车(黑色条) -->
+    <div class="top-bar">
+        <div class="wrap">
+            <div class="left l">
+                <a href="#">小米商城</a>
+                <span>|</span>
+                <a href="#">MIUI</a>
+                <span>|</span>
+                <a href="#">IoT</a>
+                <span>|</span>
+                <a href="#">云服务</a>
+                <span>|</span>
+                <a href="#">金融</a>
+                <span>|</span>
+                <a href="#">有品</a>
+                <span>|</span>
+                <a href="#">小爱开放平台</a>
+                <span>|</span>
+                <a href="#">企业团购</a>
+                <span>|</span>
+                <a href="#">资质证照</a>
+            </div>
+            <div class="right r">
+                <div class="car r">
+                <a href="#">
+                    <i class="iconfont icon-gouwuchekong"></i>
+                    购物车
+                </a>
+                </div>
+                <div class="login r">
+                    <a href="#">注册</a>
+                    <span>|</span>
+                    <a href="#">登录</a>
+                    <span>|</span>
+                    <a href="#">消息通知</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /顶部直通车(黑色条) -->
+
+    <!-- header部分 -->
+    <div class="header wrap">
+        <!-- logo -->
+        <h1 class="l">
+            <a href="#"title="小米商城"></a>
+        </h1>
+        <!-- 导航 nav -->
+        <div class="nav l">
+            <ul>
+                <li><a href="">小米手机</a></li>
+                <li><a href="">Redmi 红米</a></li>
+                <li><a href="">电视</a></li>
+                <li><a href="">笔记本</a></li>
+                <li><a href="">家电</a></li>
+                <li><a href="">路由器</a></li>
+                <li><a href="">智能硬件</a></li>
+                <li><a href="">服务</a></li>
+                <li><a href="">社区</a></li>
+            </ul>
+        </div>
+        <!-- 搜索 search -->
+        <div class="search r">
+            <input type="text"class="inp l"placeholder="显示器">
+            <span class="iconfont icon-sousuo l"></span>
+        </div>
+    </div>
+    <!-- /header部分 -->
+
+    <!-- banner图部分 -->
+    <div class="banner-box wrap">
+        <!-- banner图片 -->
+        <ul>
+            <li><img src="./images/05.webp" alt=""></li>
+            <li><img src="./images/03.webp" alt=""></li>
+            <li><img src="./images/04.webp" alt=""></li>
+            <li><img src="./images/02.webp" alt=""></li>
+        </ul>
+        
+        <!-- banner-nav导航 -->
+        <div class="banner-nav">
+            <ul>
+                <li>
+                    <a href="#">手机<span>></span></a>
+                    <div class="banner-nav-content">手机</div>
+                </li>
+                <li>
+                    <a href="#">电视<span>></span></a>
+                    <div class="banner-nav-content">电视</div>
+                </li>
+                <li>
+                    <a href="#">笔记本<span>></span></a>
+                    <div class="banner-nav-content">笔记本</div>
+                </li>
+                <li>
+                    <a href="#">家电<span>></span></a>
+                    <div class="banner-nav-content">家电</div>
+                </li>
+                <li>
+                    <a href="#">出行<span>></span></a>
+                    <div class="banner-nav-content">出行</div>
+                </li>
+                <li>
+                    <a href="#">智能<span>></span></a>
+                    <div class="banner-nav-content">智能</div>
+                </li>
+                <li>
+                    <a href="#">电源 配件<span>></span></a>
+                    <div class="banner-nav-content">电源 配件</div>
+                </li>
+                <li>
+                    <a href="#">健康<span>></span></a>
+                    <div class="banner-nav-content">健康</div>
+                </li>
+                <li>
+                    <a href="#">耳机 音箱<span>></span></a>
+                    <div class="banner-nav-content">耳机 音响</div>
+                </li>
+                <li>
+                    <a href="#">生活<span>></span></a>
+                    <div class="banner-nav-content">生活</div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- banner箭头 span -->
+        <div class="iconfont icon-xiaoyuhao"></div>
+        <div class="iconfont icon-dayuhao"></div>
+
+        <!-- banner小圆点 -->
+        <div class="out-box">
+        <ul class="diandian">
+            <li>
+                <div class="dian"></div>
+            </li>
+            <li>
+                <div class="dian"></div>
+            </li>
+            <li>
+                <div class="dian"></div>
+            </li>
+            <li>
+                <div class="dian"></div>
+            </li>
+            <li>
+                <div class="dian kong"></div>
+            </li>
+        </ul></div>
+    </div>
+    <!-- /banner图部分 -->
+
+
+    <!-- 保障服务 开始 -->
+    <div class="wrap baozhang">
+        <div class="zongse">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./images/bzfw.png" alt="">
+                        <span> 保障服务</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/qytg.png" alt="">
+                        <span>企业团购</span> 
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/Fmtd.png" alt="">
+                        <span>F码通道</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/mfk.png" alt="">
+                        <span>米粉卡</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/yjhx.png" alt="">
+                        <span>以旧换新</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/hfcz.png" alt="">
+                        <span>话费充值</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <img class="tupian1"src="./images/xiaomi11.jpg" alt="">
+        <img class="tupian1"src="./images/mix fold.png" alt="">
+        <img class="tupian1"src="./images/redmi3.jpeg" alt="">
+    </div>
+    <!-- 保障服务 结束 -->
+
+<!-- 灰色大背景 -->
+    <div class="huise">
+    <!-- K40开始 -->
+        <div class="wrap k40">
+            <img src="./images/k40.webp" alt="">
+        </div>
+    <!-- K40结束 -->
+
+
+    <!-- 手机标题 -->
+    <h2 class="wrap shouji">手机
+        <a href="#">查看更多
+            <span class="iconfont icon-xiayiyeqianjinchakangengduo-yuankuang"></span>
+        </a>
+    </h2>
+    <!-- 手机标题 -->
+    <!-- 手机内容 -->
+    <div class="wrap sjnr">
+        <div class="sjnr-left">
+            <img src="./images/mixzuo.webp" alt="">
+        </div>
+        <div class="sjnr-right">
+            <ul>
+                <li class="li-shang">
+                    <img src="./images/xiaomi12.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/xiaomi12-1.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/xiaomi12-2.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/xiaomi12-3.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/xiaomi12-4.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/xiaomi12-5.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/xiaomi12-6.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/xiaomi12-7.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /手机内容 -->
+
+
+    <!-- 智能穿戴 -->
+    <h2 class="wrap zncd">
+        智能穿戴
+        <a href="#">
+            <span class="remen">热门</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="cd">穿戴</span>
+        </a>
+    </h2>
+    <!-- /智能穿戴 -->
+
+
+    <!-- 智能穿戴内容 -->
+    <div class="wrap zncdnr">
+        <div class="zncdnr-left">
+            <img src="./images/watch2.webp" alt="">
+        </div>
+        <div class="zncdnr-right">
+            <ul>
+                <li class="li-shang">
+                    <img src="./images/shouhuan1.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/sh2.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/sh3.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/ej2.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/ej3.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/erji1.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/sh3.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li8">
+                    <div class="li8-top">
+                            <h3>
+                                Redmi Buds 3<br>青春版
+                            </h3>
+                            <p class="jiage">99元</p>
+                            <img src="./images/ej3.webp" alt="">
+                    </div>
+                    <div class="li8-bottom">
+                            <h3>浏览更多</h3>
+                            <p class="remen">热门</p>
+                            <div class="iconfont icon-xiayiyeqianjinchakangengduo-yuankuang"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /智能穿戴内容 -->
+
+
+    <!-- 家电 -->
+    <h2 class="wrap jd">
+        家电
+        <a href="#">
+            <span class="remen">热门</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dsyy">电视影音</span>
+        </a>
+    </h2>
+    <!-- /家电 -->
+
+
+
+    <!-- 家电内容 -->
+    <div class="wrap jdnr">
+        <div class="jdnr-left">
+            <img class="img01" src="./images/xmds1.webp" alt="">
+            <img src="./images/xmds2.webp" alt="">
+        </div>
+        <div class="jdnr-right">
+            <ul>
+                <li class="li-shang">
+                    <img src="./images/xmds01.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/xmds02.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/xmds03.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/xmbx.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/xmdcl.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/sdjqr.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/xmkx.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/xmds01.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 家电内容结束 -->
+
+
+
+    <!-- 生活电器标题 -->
+    <h2 class="wrap shdq">
+        生活电器
+        <a href="#">
+            <span class="fengshan">风扇</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dsyy">扫地机</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dsyy">空净</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dsyy">清洁</span>
+        </a>
+    </h2>
+    <!-- /生活电器标题 -->
+
+
+    <!-- 生活电器内容 -->
+    <div class="wrap shdqnr">
+        <div class="shdqnr-left">
+            <img class="img01" src="./images/shdq1.webp" alt="">
+            <img src="./images/shdq2.webp" alt="">
+        </div>
+        <div class="shdqnr-right">
+            <ul>
+                <li class="li-shang">
+                    <img src="./images/fs1.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/fs2.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/fs3.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/fs4.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/fs5.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/fs6.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/fs7.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li8">
+                
+                    <div class="li8-top">
+                            <h3>浏览更多</h3>
+                            <p class="remen">热门</p>
+                            <div class="iconfont icon-xiayiyeqianjinchakangengduo-yuankuang"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- /生活电器内容 -->
+
+
+    <!-- 养生壶 -->
+    <div class="wrap ysh">
+        <img src="./images/ysh.webp" alt="">
+    </div>
+    <!-- /养生壶 -->
+
+
+    <!-- 厨房电器标题 -->
+    <h2 class="wrap cfdq">
+        厨房电器
+        <a href="#">
+            <span class="jsq">净水器</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dsyy">烟罩</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dsyy">电饭煲</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dsyy">微蒸烤</span>
+        </a>
+    </h2>
+    <!-- /厨房电器标题 -->
+
+
+    <!-- 厨房电器内容 -->
+    <div class="wrap cfdqnr">
+        <div class="cfdqnr-left">
+            <img class="img01" src="./images/cfdq1.webp" alt="">
+            <img src="./images/cfdq2.webp" alt="">
+        </div>
+        <div class="cfdqnr-right">
+            <ul>
+                <li class="li-shang">
+                    <img src="./images/jsq1.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/jsq2.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/jsq3.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/jsq4.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/jsq5.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/jsq6.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/jsq7.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/jsq8.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /厨房电器内容 -->
+
+
+    <!-- 智能家居标题 -->
+    <h2 class="wrap znjj">
+        智能家居
+        <a href="#">
+            <span class="xayx">小爱音箱</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dsyy">门锁</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dsyy">路由器</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dsyy">智能设备</span>
+        </a>
+    </h2>
+    <!-- /智能家居标题 -->
+
+    <!-- 智能家居内容 -->
+    <div class="wrap znjjnr">
+        <div class="znjjnr-left">
+            <img class="img01" src="./images/znjj1.webp" alt="">
+            <img src="./images/znjj2.webp" alt="">
+        </div>
+        <div class="znjjnr-right">
+            <ul>
+                <li class="li-shang">
+                    <img src="./images/yx1.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/yx2.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/yx3.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/yx4.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/yx5.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/yx6.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/yx7.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                
+                <li class="li8">
+                    <div class="li8-top">
+                            <h3>
+                                Redmi Buds 3<br>青春版
+                            </h3>
+                            <p class="jiage">99元</p>
+                            <img src="./images/ej3.webp" alt="">
+                    </div>
+                    <div class="li8-bottom">
+                            <h3>浏览更多</h3>
+                            <p class="remen">热门</p>
+                            <div class="iconfont icon-xiayiyeqianjinchakangengduo-yuankuang"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /智能家居内容 -->
+
+
+    <!-- 运动出行标题 -->
+    <h2 class="wrap ydcx">
+        运动出行
+        <a href="#">
+            <span class="cxgj">出行工具</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dsyy">运动健身</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dsyy">箱包配饰</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dsyy">平衡车/滑板车</span>
+        </a>
+    </h2>
+    <!-- /运动出行标题 -->
+
+
+    <!-- 运动出行内容 -->
+    <div class="wrap ydcxnr">
+        <div class="ydcxnr-left">
+            <img class="img01" src="./images/ydcx1.webp" alt="">
+            <img src="./images/ydcx2.webp" alt="">
+        </div>
+        <div class="ydcxnr-right">
+            <ul>
+                <li class="li-shang">
+                    <img src="./images/cx1.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/cx2.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/cx3.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/cx4.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/cx5.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/cx6.jpg" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/cx7.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/cx8.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /运动出行内容 -->
+
+
+
+    <!-- 中性笔开始 -->
+    <div class="wrap zxb">
+        <img src="./images/zxb.webp" alt="">
+    </div>
+    <!-- 中性笔结束 -->
+
+
+    <!-- 日用百货标题开始 -->
+    <h2 class="wrap rybh">
+        日用百货
+        <a href="#">
+            <span class="ghjk">个护健康</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dsyy">电源线材</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dsyy">儿童用品</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="dsyy">家具用品</span>
+        </a>
+    </h2>
+    <!-- 日用百货标题结束 -->
+
+
+    <!-- 日用百货内容开始 -->
+    <div class="wrap rybhnr">
+        <div class="rybhnr-left">
+            <img class="img01" src="./images/rybh1.webp" alt="">
+            <img src="./images/rybh2.webp" alt="">
+        </div>
+        <div class="rybhnr-right">
+            <ul>
+                <li class="li-shang">
+                    <img src="./images/bh1.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/bh2.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/bh3.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li class="li-shang">
+                    <img src="./images/bh4.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/bh5.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/bh6.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/bh7.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+                <li>
+                    <img src="./images/bh8.webp" alt="">
+                    <h3>Xiaomi 12 Pro</h3>
+                    <p class="jieshao">全新骁龙8｜2K AMOLED屏幕</p>
+                    <p class="jiage">4699元起</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 日用百货内容结束 -->
+
+
+    <!-- 视频标题开始 -->
+    <h2 class="wrap shipin">
+        视频
+        <a href="#">查看全部
+            <span class="iconfont icon-xiayiyeqianjinchakangengduo-yuankuang"></span>
+        </a>
+    </h2>
+    <!-- 视频标题结束 -->
+
+
+    <!-- 视频内容开始 -->
+    <div class="wrap sp">
+        <ul>
+            <li class="li01">
+                <img src="./images/sp1.webp" alt="">
+                <div class="iconfont icon-bofang"></div>
+                <h3>2021年春季新品发布会第一场</h3>
+            </li>
+            <li>
+                <img src="./images/sp2.webp" alt="">
+                <div class="iconfont icon-bofang"></div>
+                <h3>
+                    Redmi 10X系列发布会
+                </h3>
+                <p>
+                    Redmi 10X系列发布会
+                </p>
+            </li>
+            <li>
+                <img src="./images/sp3.webp" alt="">
+                <div class="iconfont icon-bofang"></div>
+                <h3>小米10 青春版 发布会</h3>
+            </li>
+            <li>
+                <img src="./images/sp4.webp" alt="">
+                <div class="iconfont icon-bofang"></div>
+                <h3>
+                    小米10 8K手机拍大片
+                </h3>
+            </li>
+        </ul>
+    </div>
+    <!-- 视频内容结束 -->
+
+
+
+    <!-- 预约维修栏开始 -->
+    <div class="footer-link">
+    <div class="wrap yuyue">
+        <ul>
+            <li>
+                <div class="dahe">
+                <a href="#">
+                <div class="iconfont icon-banshou"></div>
+                    预约维修服务
+                </a></div>
+                <span>|</span>
+            </li>
+            
+            <li><div class="dahe">
+
+                <a href="#">
+                <div class="iconfont icon-7tianwuliyoutuihuo"></div>
+                    七天无理由退货
+                </a></div>
+                <span>|</span>
+            </li>
+            
+            <li><div class="dahe">
+
+                <a href="#">
+                <div class="iconfont icon-15tianwuliyoutuihuo"></div>
+                    15天免费换货
+                </a></div>
+                <span>|</span>
+            </li>
+            
+            <li><div class="dahe">
+
+                <a href="#">
+                <div class="iconfont icon-liwuhuodong"></div>
+                    满69包邮
+                </a></div>
+                <span>|</span>
+            </li>
+            
+            <li><div class="dahe">
+                <a href="#">
+                <div class="iconfont icon-dizhi"></div>
+                    520余家售后网点
+                </a></div>
+            </li>
+        </ul>
+    </div>
+    <!-- 预约维修栏结束 -->
+
+
+    <!-- 自定义标签底栏 -->
+        <div class="wrap zdy">
+            <div class="zdy-left">
+                <dl>
+                    <dt>帮助中心</dt>
+                    <dd>账户管理</dd>
+                    <dd>购物指南</dd>
+                    <dd>订单操作</dd>
+                </dl>
+                <dl>
+                    <dt>帮助中心</dt>
+                    <dd>账户管理</dd>
+                    <dd>购物指南</dd>
+                    <dd>订单操作</dd>
+                </dl>
+                <dl>
+                    <dt>帮助中心</dt>
+                    <dd>账户管理</dd>
+                    <dd>购物指南</dd>
+                    <dd>订单操作</dd>
+                </dl>
+                <dl>
+                    <dt>帮助中心</dt>
+                    <dd>账户管理</dd>
+                    <dd>购物指南</dd>
+                    <dd>订单操作</dd>
+                    <dd>订单操作</dd>
+                    <dd>订单操作</dd>
+
+                </dl>
+                <dl>
+                    <dt>帮助中心</dt>
+                    <dd>账户管理</dd>
+                    <dd>购物指南</dd>
+                    <dd>订单操作</dd>
+                    <dd>订单操作</dd>
+
+                </dl>
+                <dl>
+                    <dt>帮助中心</dt>
+                    <dd>账户管理</dd>
+                    <dd>购物指南</dd>
+                    <dd>订单操作</dd>
+                </dl>
+            </div>
+            <div class="zdy-right">
+                <p class="p01">400-110-5678</p>
+                <p class="p02">8:00-18:00（仅收市话费）</p>
+                <a href="">
+                    <div class="biankuang">
+                    <div class="iconfont icon-xinxi"></div>
+                    <span class="rgkf">人工客服</span>
+                </a></div>
+                <div class="gzxm01">
+                    <span class="gzxm">关注小米</span>
+                    <div class="iconfont icon-xinlangweibo"></div>
+                    <div class="iconfont icon-weixin"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /自定义标签底栏 -->
+
+
+    <!-- 底部栏开始 -->
+    <div class="bottom-dibu">
+        <div class="wrap zhongxin">
+            <div class="zhongxin-left">
+                <h1 class="l">
+                    <a href="#"title="小米商城"></a>
+                </h1>
+            </div>
+            <div class="zhongxin-right">
+                <p class="pp01">
+                    <a href="#">小米商城</a>
+                    <span>|</span>
+                    <a href="#">MIUI</a>
+                    <span>|</span>
+                    <a href="#">米家</a>
+                    <span>|</span>
+                    <a href="#">米聊</a>
+                    <span>|</span>
+                    <a href="#">多看</a>
+                    <span>|</span>
+                    <a href="#">游戏</a>
+                    <span>|</span>
+                    <a href="#">政企服务</a>
+                    <span>|</span>
+                    <a href="#">小米天猫店</a>
+                    <span>|</span>
+                    <a href="#">小米集团隐私政策</a>
+                    <span>|</span>
+                    <a href="#">小米公司儿童信息保护规则</a>
+                    <span>|</span>
+                    <a href="#">小米商城隐私政策</a>
+                    <span>|</span>
+                    <a href="#">小米商城用户协议</a>
+                    <span>|</span>
+                    <a href="#">问题反馈</a>
+                    <span>|</span>
+                    <a href="#">Select Location</a>
+                    <span>|</span>                  
+                </p>
+                <p class="pp04">
+                    <a href="">北京互联网法院法律服务工作站</a>
+                    <span>|</span>
+                    <a href="">中国消费者协会</a>
+                    <span>|</span>
+                    <a href="">北京市消费者协会</a>
+                    <span>|</span>
+                </p>
+                <p class="pp02">
+                    © mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2020]0276-042号 <br>
+                    （京）网械平台备字（2018）第00005号 互联网药品信息服务资格证 (京)-非经营性-2014-0090 营业执照 医疗器械质量公告 <br>
+                    增值电信业务许可证 网络食品经营备案（京）【2018】WLSPJYBAHF-12  食品经营许可证 <br>
+                    违法和不良信息举报电话：185-0130-1238 知识产权侵权投诉 本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
+                </p>
+                <div class="div-tupian">
+                    <img class="img001" src="./images/dibu1.png" alt="">
+                    <img class="img002" src="./images/dibu2.png" alt="">
+                    <img class="img003" src="./images/dibu3.png" alt="">
+                    <img class="img004" src="./images/dibu4.png" alt="">
+                    <img class="img005" src="./images/dibu6.png" alt="">
+                </div>
+            </div>
+            <p class="jieyu">让全球每个人都能享受科技带来的美好生活</p>
+        </div>
+    </div>
+    <!-- 底部栏开始 -->
+
+
+
+
+
+
+
+
+    </div>    
+</body>
+</html>

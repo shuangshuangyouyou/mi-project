@@ -1,0 +1,1472 @@
+/* 设置公共类 */
+/* 设置版心类 负责盒子的宽度和居中效果 */
+
+.wrap{
+    width: 1226px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.l{
+    float: left;
+}
+.r{
+    float: right;
+}
+.bainbu a:hover .iconfont{
+    color: tomato;
+}
+
+/* 边部固定栏开始 */
+.bianbu{
+    width: 84px;
+    height: 565px;
+    /* border: 1px solid rgb(187, 187, 187); */
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+}
+.bianbu a{
+    display: block;
+    background-color: white;
+    width: 84px;
+    height: 92px;
+    font-size: 15px;
+    color: rgb(135, 135, 135);
+    /* border: 1px solid rgb(187, 187, 187); */
+    border-left: 1px solid rgb(231, 231, 231);
+    border-top: 1px solid rgb(231, 231, 231);
+
+}
+.bianbu a .iconfont{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(135, 135, 135);
+    padding-top: 25px;
+}
+.bianbu a span{
+    display: block;
+    text-align: center;
+}
+.bianbu .gwc{
+    border-bottom: 1px solid rgb(231, 231, 231);
+}
+.bianbu .backtop{
+    margin-top: 12px;
+    border-top: 1px solid rgb(231, 231, 231);
+    border-bottom:1px solid rgb(231, 231, 231);
+}
+/* 边部固定栏结束 */
+
+
+
+
+
+/* 顶部广告样式开始 */
+.ad-top{
+    width: 100%;
+    height: 120px;
+    background: url(../images/ad-top.jpg)no-repeat center 0;
+    background-size: auto 120px;
+}
+/* 顶部广告样式结束 */
+
+/* 顶部条样式开始 */
+.top-bar{
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+}
+/* 顶部条样式结束 */
+
+/* 顶部直通车样式开始 */
+.top-bar .left{
+    width: 600px;
+    height: 40px;
+    line-height: 40px;
+    /* background-color: rebeccapurple; */
+}
+/* 左右两个盒子里面的a链接样式相同 */
+.top-bar a{
+    color:#b0b0b0;
+}
+/* 左右两个盒子里面的span链接样式相同 */
+.top-bar span{
+    margin-left: 0 5px;
+    color: rgb(138, 138, 138);
+}
+.top-bar .right{
+    width: 600px;
+    height: 40px;
+    /* background-color: rgb(155, 71, 240); */
+    line-height: 40px;
+}
+.top-bar .right .car{
+    padding: 0 30px;
+    background-color: rgb(66, 66, 66);
+    margin-left: 20px;
+}
+/* 顶部直通车样式结束 */
+
+
+
+/* header开始 */
+.header{
+    height: 100px;
+    /* background-color: palevioletred; */
+}
+/* logo */
+.header h1{
+    width: 55px;
+    height: 55px;
+    background-color: #ff6700;
+    margin-top: 22px;
+}
+.header h1 a{
+    display: block;
+    width: 55px;
+    height: 55px;
+    background: url(../images/mi-logo.png)no-repeat center center;
+}
+.hearder .nav{
+    margin-left: 179px;
+    /* width: 700px; */
+    height: 100px;
+    /* background-color: peru; */
+}
+.header .nav ul{
+    padding-left: 170px;
+}
+.header .nav li{
+    float: left;
+    line-height: 100px;
+    padding: 0 10px;
+}
+.header .nav li a{
+    font-size: 16px;
+    color: #333;
+}
+.header .search{
+    /* width: 400px; */
+    height: 100px;
+    /* background-color: rgb(223, 255, 81); */
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+.header .search .inp{
+    width: 246px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    border-right: 0;
+    text-indent: 20px;
+
+}
+.header .search span{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    line-height: 50px;
+}
+.header .search span:hover{
+    background-color: #ff6a00;
+    color: #fff;
+}
+/* header结束 */
+
+
+/* banner开始 */
+.banner-box{
+    height: 460px;
+    background-color: pink;
+    position: relative;
+}
+/* 将banner所有图片定位到大盒子里 */
+.banner-box>ul>li{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.banner-nav{
+    width: 234px;
+    height: 460px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+.banner-nav li a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    color: seashell;
+    font-size: 16px;
+}
+.banner-nav li a span{
+    float: right;
+    font-weight: 700;
+    font-family: '黑体';
+}
+.banner-nav li a:hover{
+    background-color: #ff6a00;
+}
+
+.banner-nav-content{
+    width: 800px;
+    height: 460px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 234px;
+    top: 0;
+
+    /* 一开始要隐藏 */
+    display: none;
+}
+.banner-nav li:hover .banner-nav-content{
+    display: block;
+}
+
+
+.banner-box .icon-xiaoyuhao{
+    position: absolute;
+    left: 244px;
+    top: 50%;
+    font-size: 35px;
+    color: rgb(132, 132, 132);
+}
+.banner-box .icon-dayuhao{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    font-size: 35px;
+    color: rgb(132, 132, 132);
+}
+
+.banner-box .diandian{
+    display: block;
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    /* border: 1px solid red; */
+}
+
+.banner-box ul li .dian{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(125, 124, 124);
+    border-radius: 50%;
+}
+.banner-box .diandian li{
+    margin-left: 10px;
+    float: left;
+}
+.banner-box ul li .kong{
+    background-color: transparent;
+    border: 2px solid rgb(115, 115, 115);
+    box-sizing: border-box;
+}
+/* banner结束 */
+
+
+/* 保障开始 */
+.baozhang{
+    height: 170px;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    /* border: 1px solid black; */
+}
+.baozhang .zongse{
+    width: 234px;
+    height: 170px;
+    float: left;
+    background-color: #5f5750;
+}
+.baozhang .tupian1{
+    width: 316px;
+    height: 170px;
+    float: left;
+    padding-left: 14px;
+}
+.baozhang .zongse ul li{
+    width: 76px;
+    height: 82px;
+    float: left;
+
+    position: relative;
+}
+.baozhang .zongse ul li a img{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 18px;
+    /* margin-top: -12px; */
+    left: 27px;
+    /* margin-left: -12px; */
+}
+.baozhang .zongse ul li a{
+    width: 70px;
+    height: 64px;
+    margin-left: 15px;
+    color: white;
+  
+}
+.baozhang .zongse ul li a span{
+    text-align: center;
+    line-height: 120px;
+}
+.baozhang .zongse ul li::before{
+    content: '';
+    width: 1px;
+    height: 75px;
+    background-color: #988e85;
+    position: absolute;
+    top: 7px;
+    left: 3px;
+}
+.baozhang .zongse ul li::after{
+    content: '';
+    width: 68px;
+    height: 1px;
+    background-color: #988e85;
+    position: absolute;
+    top: 3px;
+    left: 7px;
+}
+/* 保障结束 */
+
+/* 灰色大背景 */
+.huise{
+    width: 100%;
+    background-color: #f5f5f5;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/* k40 */
+.k40{
+    width: 1226px;
+    height: 120px;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    /* box-sizing: ; */
+}
+.k40 img{
+    width: 1226px;
+    height: 120px;
+}
+/* k40结束 */
+
+/* 手机标题 */
+.shouji{
+    height: 58px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 58px;
+    color: rgb(120, 120, 120);
+    margin-top: 17px;
+}
+.shouji a{
+    float: right;
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+    line-height: 58px;
+}
+/* 手机标题结束 */
+
+
+
+/* 手机内容开始 */
+.sjnr{
+    height: 614px;
+}
+.sjnr .sjnr-left{
+    float: left;
+}
+.sjnr .sjnr-left img{
+    width: 234px;
+    height: 614px;
+}
+.sjnr .sjnr-right{
+    float: left;
+}
+.sjnr .sjnr-right ul{
+    width: 992px;
+    height: 614px;
+}
+.sjnr .sjnr-right ul li{
+    width: 234px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 14px;
+    position: relative;
+}
+.sjnr .li-shang{
+    margin-bottom: 14px;
+}
+.sjnr .sjnr-right ul li img{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: -80px;
+}
+.sjnr .sjnr-right ul li h3{
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 200px;
+    text-align: center;
+}
+.sjnr .sjnr-right ul li .jieshao{
+    font-size: 11px;
+    text-align: center;
+    color: rgb(157, 157, 157);
+}
+.sjnr .sjnr-right ul li .jiage{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(255, 79, 9);
+}
+
+/* 手机内容结束 */
+
+
+
+/* 智能穿戴开始 */
+.zncd{
+    height: 58px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 58px;
+    color: rgb(120, 120, 120);
+    margin-top: 17px;
+}
+.zncd a{
+    float: right;
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+    line-height: 58px;
+}
+.zncd a .remen{
+    color: rgb(250, 75, 44);
+    text-decoration: underline;
+}
+/* 智能穿戴结束 */
+
+
+/* 智能穿戴内容开始 */
+.zncdnr{
+    height: 614px;
+}
+.zncdnr .zncdnr-left{
+    float: left;
+}
+.zncdnr .zncdnr-left img{
+    width: 234px;
+    height: 614px;
+}
+.zncdnr .zncdnr-right{
+    float: left;
+}
+.zncdnr .zncdnr-right ul{
+    width: 992px;
+    height: 614px;
+}
+.zncdnr .zncdnr-right ul li{
+    width: 234px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 14px;
+    position: relative;
+}
+.zncdnr .li-shang{
+    margin-bottom: 14px;
+}
+.zncdnr .zncdnr-right ul li img{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: -80px;
+}
+.zncdnr .zncdnr-right ul li h3{
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 200px;
+    text-align: center;
+}
+.zncdnr .zncdnr-right ul li .jieshao{
+    font-size: 11px;
+    text-align: center;
+    color: rgb(157, 157, 157);
+}
+.zncdnr .zncdnr-right ul li .jiage{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(255, 79, 9);
+}
+.zncdnr .zncdnr-right ul .li8{
+    background-color: #f5f5f5;
+}
+.zncdnr .zncdnr-right ul .li8 .li8-top{
+    width: 234px;
+    height: 143px;
+    background-color: white;
+}
+.zncdnr .zncdnr-right ul .li8 .li8-bottom{
+    width: 234px;
+    height: 143px;
+    background-color: white;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.zncdnr .zncdnr-right ul .li8 .li8-top img{
+    width: 80px;
+    height: 80px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.zncdnr .zncdnr-right ul .li8 .li8-top h3{
+    color: rgb(90, 90, 90);
+    padding-top: 40px;
+    padding-right: 80px;
+}
+.zncdnr .zncdnr-right ul .li8 .li8-top p{
+    padding-top: 10px;
+    padding-right: 80px;
+}
+.zncdnr .zncdnr-right ul .li8 .li8-bottom h3{
+    padding-top: 50px;
+    padding-right: 80px;
+    font-size: 20px;
+}
+.zncdnr .zncdnr-right ul .li8 .li8-bottom .remen{
+    float: left;
+    padding-left: 37px;
+    padding-top: 8px;
+    color: rgb(123, 123, 123);
+}
+.zncdnr .zncdnr-right ul .li8 .li8-bottom .iconfont{
+    float: left;
+    color: tomato;
+    font-size: 50px;
+    padding-left: 90px;
+    padding-bottom: 100px;
+}
+/* 智能穿戴内容结束 */
+
+
+
+/* 家电标题开始 */
+.jd{
+    height: 58px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 58px;
+    color: rgb(120, 120, 120);
+    margin-top: 17px;
+}
+.jd a{
+    float: right;
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+    line-height: 58px;
+}
+.jd a .remen{
+    color: rgb(250, 75, 44);
+    text-decoration: underline;
+}
+/* 家电标题结束 */
+
+
+/* 家电内容开始 */
+.jdnr{
+    height: 614px;
+}
+.jdnr .jdnr-left{
+    float: left;
+    width: 234px;
+}
+.jdnr .jdnr-left img{
+    width: 234px;
+    height: 300px;
+    
+}
+.jdnr .jdnr-left .img01{
+    margin-bottom: 9px;
+}
+.jdnr .jdnr-right{
+    float: left;
+}
+.jdnr .jdnr-right ul{
+    width: 992px;
+    height: 614px;
+}
+.jdnr .jdnr-right ul li{
+    width: 234px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 14px;
+    position: relative;
+}
+.jdnr .li-shang{
+    margin-bottom: 14px;
+}
+.jdnr .jdnr-right ul li img{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: -80px;
+}
+.jdnr .jdnr-right ul li h3{
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 200px;
+    text-align: center;
+}
+.jdnr .jdnr-right ul li .jieshao{
+    font-size: 11px;
+    text-align: center;
+    color: rgb(157, 157, 157);
+}
+.jdnr .jdnr-right ul li .jiage{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(255, 79, 9);
+}
+/* 家电内容结束 */
+
+
+/* 生活电器开始 */
+.shdq{
+    height: 58px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 58px;
+    color: rgb(120, 120, 120);
+    margin-top: 17px;
+}
+.shdq a{
+    float: right;
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+    line-height: 58px;
+}
+.shdq a .fengshan{
+    color: rgb(250, 75, 44);
+    text-decoration: underline;
+}
+/* 生活电器结束 */
+
+
+/* 生活电器内容开始 */
+.shdqnr{
+    height: 614px;
+}
+.shdqnr .shdqnr-left{
+    float: left;
+    width: 234px;
+}
+.shdqnr .shdqnr-left img{
+    width: 234px;
+    height: 300px;
+    
+}
+.shdqnr .shdqnr-left .img01{
+    margin-bottom: 9px;
+}
+.shdqnr .shdqnr-right{
+    float: left;
+}
+.shdqnr .shdqnr-right ul{
+    width: 992px;
+    height: 614px;
+}
+.shdqnr .shdqnr-right ul li{
+    width: 234px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 14px;
+    position: relative;
+}
+.shdqnr .li-shang{
+    margin-bottom: 14px;
+}
+.shdqnr .shdqnr-right ul li img{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: -80px;
+}
+.shdqnr .shdqnr-right ul li h3{
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 200px;
+    text-align: center;
+}
+.shdqnr .shdqnr-right ul li .jieshao{
+    font-size: 11px;
+    text-align: center;
+    color: rgb(157, 157, 157);
+}
+.shdqnr .shdqnr-right ul li .jiage{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(255, 79, 9);
+}
+
+
+.shdqnr .shdqnr-right ul .li8{
+    background-color: #f5f5f5;
+}
+.shdqnr .shdqnr-right ul .li8 .li8-top{
+    width: 234px;
+    height: 143px;
+    background-color: white;
+}
+/* .shdqnr .shdqnr-right ul .li8 .li8-bottom{
+    width: 234px;
+    height: 143px;
+    background-color: white;
+
+    position: absolute;
+    bottom: 0;
+} */
+
+/* .shdqnr .shdqnr-right ul .li8 .li8-top img{
+    width: 80px;
+    height: 80px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.shdqnr .shdqnr-right ul .li8 .li8-top h3{
+    color: rgb(90, 90, 90);
+    padding-top: 40px;
+    padding-right: 80px;
+}
+.shdqnr .shdqnr-right ul .li8 .li8-top p{
+    padding-top: 10px;
+    padding-right: 80px;
+} */
+.shdqnr .shdqnr-right ul .li8 .li8-top h3{
+    padding-top: 50px;
+    padding-right: 80px;
+    font-size: 20px;
+}
+.shdqnr .shdqnr-right ul .li8 .li8-top .remen{
+    float: left;
+    padding-left: 37px;
+    padding-top: 8px;
+    color: rgb(123, 123, 123);
+}
+.shdqnr .shdqnr-right ul .li8 .li8-top .iconfont{
+    float: left;
+    color: #f87300;
+    font-size: 50px;
+    padding-left: 90px;
+    padding-bottom: 100px;
+}
+/* 生活电器内容结束 */
+
+
+/* 养生壶开始 */
+.ysh{
+    width: 1226px;
+    height: 120px;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    /* box-sizing: ; */
+}
+.ysh img{
+    width: 1226px;
+    height: 120px;
+}
+
+/* 养生壶结束 */
+
+
+/* 厨房电器标题开始 */
+.cfdq{
+    height: 58px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 58px;
+    color: rgb(120, 120, 120);
+    margin-top: 17px;
+}
+.cfdq a{
+    float: right;
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+    line-height: 58px;
+}
+.cfdq a .jsq{
+    color: rgb(250, 75, 44);
+    text-decoration: underline;
+}
+/* 厨房电器标题结束 */
+
+/* 厨房电器内容开始 */
+.cfdqnr{
+    height: 614px;
+}
+.cfdqnr .cfdqnr-left{
+    float: left;
+    width: 234px;
+}
+.cfdqnr .cfdqnr-left img{
+    width: 234px;
+    height: 300px;
+    
+}
+.cfdqnr .cfdqnr-left .img01{
+    margin-bottom: 9px;
+}
+.cfdqnr .cfdqnr-right{
+    float: left;
+}
+.cfdqnr .cfdqnr-right ul{
+    width: 992px;
+    height: 614px;
+}
+.cfdqnr .cfdqnr-right ul li{
+    width: 234px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 14px;
+    position: relative;
+}
+.cfdqnr .li-shang{
+    margin-bottom: 14px;
+}
+.cfdqnr .cfdqnr-right ul li img{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: -80px;
+}
+.cfdqnr .cfdqnr-right ul li h3{
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 200px;
+    text-align: center;
+}
+.cfdqnr .cfdqnr-right ul li .jieshao{
+    font-size: 11px;
+    text-align: center;
+    color: rgb(157, 157, 157);
+}
+.cfdqnr .cfdqnr-right ul li .jiage{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(255, 79, 9);
+}
+/* 厨房电器内容结束 */
+
+
+/* 智能家居标题开始 */
+.znjj{
+    height: 58px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 58px;
+    color: rgb(120, 120, 120);
+    margin-top: 17px;
+}
+.znjj a{
+    float: right;
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+    line-height: 58px;
+}
+.znjj a .xayx{
+    color: rgb(250, 75, 44);
+    text-decoration: underline;
+}
+/* 智能家居标题结束 */
+
+/* 智能家居内容开始 */
+.znjjnr{
+    height: 614px;
+}
+.znjjnr .znjjnr-left{
+    float: left;
+    width: 234px;
+}
+.znjjnr .znjjnr-left img{
+    width: 234px;
+    height: 300px;
+    
+}
+.znjjnr .znjjnr-left .img01{
+    margin-bottom: 9px;
+}
+.znjjnr .znjjnr-right{
+    float: left;
+}
+.znjjnr .znjjnr-right ul{
+    width: 992px;
+    height: 614px;
+}
+.znjjnr .znjjnr-right ul li{
+    width: 234px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 14px;
+    position: relative;
+}
+.znjjnr .li-shang{
+    margin-bottom: 14px;
+}
+.znjjnr .znjjnr-right ul li img{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: -80px;
+}
+.znjjnr .znjjnr-right ul li h3{
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 200px;
+    text-align: center;
+}
+.znjjnr .znjjnr-right ul li .jieshao{
+    font-size: 11px;
+    text-align: center;
+    color: rgb(157, 157, 157);
+}
+.znjjnr .znjjnr-right ul li .jiage{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(255, 79, 9);
+}
+
+
+.znjjnr .znjjnr-right ul .li8{
+    background-color: #f5f5f5;
+}
+.znjjnr .znjjnr-right ul .li8 .li8-top{
+    width: 234px;
+    height: 143px;
+    background-color: white;
+}
+.znjjnr .znjjnr-right ul .li8 .li8-bottom{
+    width: 234px;
+    height: 143px;
+    background-color: white;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.znjjnr .znjjnr-right ul .li8 .li8-top img{
+    width: 80px;
+    height: 80px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.znjjnr .znjjnr-right ul .li8 .li8-top h3{
+    color: rgb(90, 90, 90);
+    padding-top: 40px;
+    padding-right: 80px;
+}
+.znjjnr .znjjnr-right ul .li8 .li8-top p{
+    padding-top: 10px;
+    padding-right: 80px;
+}
+.znjjnr .znjjnr-right ul .li8 .li8-bottom h3{
+    padding-top: 50px;
+    padding-right: 80px;
+    font-size: 20px;
+}
+.znjjnr .znjjnr-right ul .li8 .li8-bottom .remen{
+    float: left;
+    padding-left: 37px;
+    padding-top: 8px;
+    color: rgb(123, 123, 123);
+}
+.znjjnr .znjjnr-right ul .li8 .li8-bottom .iconfont{
+    float: left;
+    color: #f87300;
+    font-size: 50px;
+    padding-left: 90px;
+    padding-bottom: 100px;
+}
+/* 智能家居内容结束 */
+
+
+/* 运动出行开始 */
+.ydcx{
+    height: 58px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 58px;
+    color: rgb(120, 120, 120);
+    margin-top: 17px;
+}
+.ydcx a{
+    float: right;
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+    line-height: 58px;
+}
+.ydcx a .cxgj{
+    color: rgb(250, 75, 44);
+    text-decoration: underline;
+}
+/* 运动出行结束 */
+
+
+/* 运动出行内容开始 */
+.ydcxnr{
+    height: 614px;
+}
+.ydcxnr .ydcxnr-left{
+    float: left;
+    width: 234px;
+}
+.ydcxnr .ydcxnr-left img{
+    width: 234px;
+    height: 300px;
+    
+}
+.ydcxnr .ydcxnr-left .img01{
+    margin-bottom: 9px;
+}
+.ydcxnr .ydcxnr-right{
+    float: left;
+}
+.ydcxnr .ydcxnr-right ul{
+    width: 992px;
+    height: 614px;
+}
+.ydcxnr .ydcxnr-right ul li{
+    width: 234px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 14px;
+    position: relative;
+}
+.ydcxnr .li-shang{
+    margin-bottom: 14px;
+}
+.ydcxnr .ydcxnr-right ul li img{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: -80px;
+}
+.ydcxnr .ydcxnr-right ul li h3{
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 200px;
+    text-align: center;
+}
+.ydcxnr .ydcxnr-right ul li .jieshao{
+    font-size: 11px;
+    text-align: center;
+    color: rgb(157, 157, 157);
+}
+.ydcxnr .ydcxnr-right ul li .jiage{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(255, 79, 9);
+}
+/* 运动出行内容结束 */
+
+
+/* 中性笔开始 */
+.zxb{
+    width: 1226px;
+    height: 120px;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    /* box-sizing: ; */
+}
+.zxb img{
+    width: 1226px;
+    height: 120px;
+}
+/* 中性笔结束 */
+
+
+/* 日用百货标题开始 */
+.rybh{
+    height: 58px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 58px;
+    color: rgb(120, 120, 120);
+    margin-top: 17px;
+}
+.rybh a{
+    float: right;
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+    line-height: 58px;
+}
+.rybh a .ghjk{
+    color: rgb(250, 75, 44);
+    text-decoration: underline;
+}
+/* 日用百货标题结束 */
+
+
+/* 日用百货内容开始 */
+.rybhnr{
+    height: 614px;
+}
+.rybhnr .rybhnr-left{
+    float: left;
+    width: 234px;
+}
+.rybhnr .rybhnr-left img{
+    width: 234px;
+    height: 300px;
+    
+}
+.rybhnr .rybhnr-left .img01{
+    margin-bottom: 9px;
+}
+.rybhnr .rybhnr-right{
+    float: left;
+}
+.rybhnr .rybhnr-right ul{
+    width: 992px;
+    height: 614px;
+}
+.rybhnr .rybhnr-right ul li{
+    width: 234px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    margin-left: 14px;
+    position: relative;
+}
+.rybhnr .li-shang{
+    margin-bottom: 14px;
+}
+.rybhnr .rybhnr-right ul li img{
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: -80px;
+}
+.rybhnr .rybhnr-right ul li h3{
+    font-weight: 400;
+    font-size: 12px;
+    padding-top: 200px;
+    text-align: center;
+}
+.rybhnr .rybhnr-right ul li .jieshao{
+    font-size: 11px;
+    text-align: center;
+    color: rgb(157, 157, 157);
+}
+.rybhnr .rybhnr-right ul li .jiage{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(255, 79, 9);
+}
+/* 日用百货内容结束 */
+
+
+/* 视频标题开始 */
+.shipin{
+    height: 58px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 58px;
+    color: rgb(120, 120, 120);
+    margin-top: 17px;
+}
+.shipin a{
+    float: right;
+    color: rgb(120, 120, 120);
+    font-size: 15px;
+    line-height: 58px;
+}
+/* 视频标题结束 */
+
+
+/* 视频内容开始 */
+.sp{
+    height: 285px;
+    padding-bottom: 20px;
+}
+.sp ul{
+    width: 1226px;
+    height: 285px;
+}
+.sp ul li{
+    width: 296px;
+    height: 285px;
+    float: left;
+    background-color: white;
+    margin-left: 14px;
+    position: relative;
+}
+.sp ul .li01{
+    margin-left: 0;
+}
+.sp ul li img{
+    width: 296px;
+    height: 180px;
+}
+.sp ul li .iconfont{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    top: 150px;
+    left: 20px;
+}
+.sp ul li h3{
+    text-align: center;
+    padding-top: 20px;
+}
+.sp ul li p{
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(155, 150, 150);
+    font-size: 10px;
+}
+/* 视频内容结束 */
+
+
+/* 预约维修栏开始 */
+.yuyue{
+    height: 80px;
+    border-bottom: 1px solid rgb(174, 174, 174);
+}
+.yuyue ul{
+    width: 1226px;
+    height: 25px;
+    line-height: 80px;
+}
+.yuyue ul li{
+    width: 242px;
+    height: 25px;
+    float: left;
+    /* text-align: center; */  
+}
+.footer-link .yuyue ul li  span{
+    padding-left: 55px;
+    font-size: 20px;
+    color: #ccc;
+}
+.yuyue ul li .dahe{
+    width: 242px;
+    /* text-align: center; */
+}
+.yuyue ul li a{
+    /* width: 126px; */
+    height: 19px;
+    float: left;
+    line-height: 80px;
+    text-align: center;
+    padding-left: 50px;
+    font-size: 15px;
+    color: rgb(98, 98, 98);
+
+
+}
+.yuyue ul li .iconfont{
+    width: 24px;
+    height: 28px;
+    font-size: 18px;
+    float: left;
+    color: rgb(128, 125, 125);
+
+}
+/* 预约维修栏结束 */
+
+
+/* 自定义标签底栏开始 */
+.footer-link{
+    width: 100%;
+    height: 333px;
+    background-color: white;
+}
+.footer-link .zdy{
+    height: 175px;
+    margin: 30px auto;
+}
+.footer-link .zdy-left{
+    width: 974px;
+    height: 175px;
+    float: left;
+}
+.footer-link .zdy-left dl{
+    width: 160px;
+    float: left;
+}
+.footer-link .zdy-left dl dt{
+    font-size: 15px;
+}
+.footer-link .zdy-left dl dd{
+    padding-top: 13px;
+    line-height: 18px;
+    color: rgb(66, 66, 66);
+}
+.footer-link .zdy-right{
+    width: 252px;
+    height: 111px;
+    float: left;
+}
+.footer-link .zdy-right .p01{
+    color: rgb(255, 115, 21);
+    font-size: 25px;
+    text-align: center;   
+}
+.footer-link .zdy-right .p02{
+    color: rgb(81, 81, 81);
+    font-size: 13px;
+    text-align: center;
+    padding-top: 10px;
+}
+.footer-link .zdy-right a{
+    color: rgb(255, 115, 21);
+}
+.footer-link .zdy-right .biankuang{
+    width: 120px;
+    height: 30px;
+    border: 1px solid rgb(255, 115, 21); 
+    margin-left: 66px;
+    margin-top: 10px;
+}
+.footer-link .zdy-right a .icon-xinxi{
+    float: left;
+    /* text-align: center; */
+    padding-left: 27px;
+    line-height: 30px;
+}
+.footer-link .zdy-right a .rgkf{
+    float: left;
+    text-align: center;
+    line-height: 30px;
+}
+.zdy-right .gzxm01{
+    width: 230px;
+    height: 21px;
+    padding-top: 10px;
+    padding-left: 80px;
+} 
+.zdy-right .gzxm01 .gzxm,.icon-xinlangweibo,.icon-weixin{
+    float: left;
+    padding-right: 5px;
+    color: rgb(52, 52, 52);
+}
+/* 自定义标签底栏结束 */
+
+
+/* 底部栏开始 */
+.bottom-dibu{
+    width: 100%;
+    height: 266px;
+    background-color: #f5f5f5;
+    margin-top: 30px;
+}
+.bottom-dibu .zhongxin{
+    height: 266px;
+    background-color: #f5f5f5;
+
+}
+.bottom-dibu .zhongxin-left{
+    float: left;
+
+    width: 100px;
+    height: 110px;
+}
+.bottom-dibu .zhongxin-left h1{
+    width: 55px;
+    height: 55px;
+    background-color: #ff6700;
+}
+.bottom-dibu .zhongxin-left h1 a{
+    display: block;
+    width: 55px;
+    height: 55px;
+    background: url(../images/mi-logo.png)no-repeat center center;
+}
+
+.bottom-dibu .zhongxin-right{
+    float: left;
+    height: 200px;
+    width: 1126px;
+}
+.bottom-dibu .zhongxin-right .pp01 a,.bottom-dibu .zhongxin-right .pp04 a{
+    color: rgb(68, 68, 68);
+    padding:5 10px;
+}
+.zhongxin-right .pp02{
+    color: rgb(125, 123, 123);
+}
+.div-tupian{
+    margin-top: 10px;
+}
+.div-tupian .img001{
+    width: 83px;
+    height: 28px;
+}
+.div-tupian .img002{
+    width: 85px;
+    height: 28px;
+}
+.div-tupian .img003{
+    width: 92px;
+    height: 28px;
+}
+.div-tupian .img004{
+    width: 85px;
+    height: 28px;
+}
+.div-tupian .img005{
+    width: 74px;
+    height: 28px;
+}
+.jieyu{
+    text-align: center;
+    font-family: '楷体';
+    font-size: 18px;
+    color: rgb(125, 125, 125);
+}
+
+/* 底部栏结束 */
